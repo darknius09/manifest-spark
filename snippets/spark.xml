@@ -372,4 +372,11 @@
   
   <!-- Pixel Launcher Mod -->
   <project path="vendor/PixelLauncher" name="arcana-ext/vendor_PixelLauncher" remote="github" revision="12.x" />
+  
+  <!-- clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r458507" name="OhMyVenyx/clang-r458507" clone-depth="1" remote="gitlab" revision="master" />
+  <!-- Trees -->
+  <project path="device/xiaomi/juice" name="darknius20/devise" remote="github" revision="spark12.1" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="darknius20/jasjus" remote="github" revision="nimf" clone-depth="1" />
 </manifest>
